@@ -1,0 +1,30 @@
+Sou um Data Scientist e vou ajudar o DP de Auditoria a avaliar uma demonstração financeira
+da empresa X.
+
+Recebi dois vetores de dados: Receita mensal e Despesas Mensais.
+
+Minha tarefa é.
+
+1. Lucro para cada mes.
+2. Lucro apos Impostos por mes, (Taxa de Imposto é 30%)
+3. Margem de Lucro, para cada mes em que é igual ao lucro fora do Imposto divido pela Receita.
+4. Bons meses, em que o Lucro, pós-imposto foi maior que a media do ano.
+5. Piores meses, em que o Lucro, após- impostos foi inferior a media do ano.
+6. Melhor mes, em que o Lucro, após-impostos foi maximo o ano.
+5. Pior mes, em que o Lucro apos Impostos foi minimo para o ano.
+
+
+
+Notas:
+
+1. Todos restultados devem ser apresentados como vetores (Vetores Verdadeiros e Falsos)
+e isso inclui: Melhor Mês e o Pior Mês.
+2. Valores em Dollar devem ser calculados com precisão de $0,01 mas precisam ser apresenteados
+em unidades de $1.000, o que significa que cada unidade é $1.000 e não á ponto decimal.
+3. Os resultados de margem de lucro precisam ser apresentados em unidade de porcentagem sem
+pontos decimais, não se preocupe com %, basta obter o numero de 0 a 100.
+
+
+. Seu colega disse que está certo que o imposto para qualquer mes seja negativo, em termos
+contabeis, o imposto negativo se traduz em um ativo fiscal deferido, mas não entraremos em 
+detalhes.

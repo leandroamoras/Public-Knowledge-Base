@@ -1,0 +1,15 @@
+1 - preencher os valores faltantes (N/A)
+1.1 - Geralmente, valores faltantes são substituidos com uma mediana, quando são númericos.
+1.2 - Já os dados categoricos, são substituidos usando uma moda (categoria que mais aparece).
+
+Exploração de dados:
+
+Nessa atividade exploramos dois tipos de dados:
+    -Númericos
+    -Categoricos
+    
+Usando a função describe() em uma váriavel (coluna de um dataset) no python, é possivel entender
+a distribuição estatistica dos dados da váriavel.
+
+Com isso, é possivél identificar se os dados estão destribuidos de forma regular, simplemente
+observando se a média(mean) e a médiana (50%) possuem valores aproximados.
