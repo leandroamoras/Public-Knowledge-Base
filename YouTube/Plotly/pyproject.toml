@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "plotly dash"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+plotly = "^5.13.0"
+pandas = "^1.5.3"
+ipykernel = "^6.21.2"
+nbformat = ">=4.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
