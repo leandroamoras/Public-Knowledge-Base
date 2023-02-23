@@ -6,11 +6,12 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.12"
 plotly = "^5.13.0"
 pandas = "^1.5.3"
 ipykernel = "^6.21.2"
 nbformat = ">=4.2.0"
+scipy = "^1.10.1"
 
 
 [build-system]
