@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyspark"
+version = "0.1.0"
+description = ""
+authors = ["leandro.amoras <amorasleandro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ipykernel = "^6.22.0"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
